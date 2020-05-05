@@ -1,3 +1,3 @@
 FROM openjdk:8-jdk
 
-RUN yum install -y ant
+RUN apt-get update && apt-get install -y ant
